@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Templates on Vercel</title>
+    <style>
+        body { background: #0f172a; color: #f8fafc; font-family: system-ui, sans-serif; text-align: center; padding: 50px; }
+        .card { background: #1e293b; border: 1px solid #334155; padding: 40px; border-radius: 12px; max-width: 500px; margin: 0 auto; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); }
+        h1 { color: #38bdf8; margin-bottom: 10px; }
+        span.highlight { color: #f43f5e; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🚀 Template System Loaded</h1>
+        <p>Hello, <span class="highlight">{{name}}</span>!</p>
+        <p>This layout is rendering out of a separate HTML asset folder safely packaged inside a Vercel serverless worker function node.</p>
+    </div>
+</body>
+</html>
